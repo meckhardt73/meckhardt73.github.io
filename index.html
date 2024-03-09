@@ -11,25 +11,13 @@
     span.s1 {font-kerning: none}
   </style>
 
-import { createApp, ref } from 'vue'
 
-createApp({
-  setup() {
-    return {
-      count: ref(0)
-    }
-  }
-}).mount('#app')
 </head>
 <body>
 <p class="p1"><span class="s1">Hello <b>World</b></span></p>
 <p class="p1"><span class="s1">Zeile 2</span></p>
 <p class="p1"><span class="s1">KC 85/1991</span></p>
 
-<div id="app">
-  <button @click="count++">
-    Count is: {{ count }}
-  </button>
-</div>
+
 </body>
 </html>
